@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UFT-8">
+    <title>特別教育受講者</title>
+    <link rel="stylesheet" href="static/tokubetsu.css">
+</head>
+<div class="area" >
+    <br>
+    <h1>特別教育一覧</h1>
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+            <br>
+            {% for tokubetsu in tokubetsu %}
+            <div style="text-align: center;">
+      <div class="btn-wrapper">
+        <a class="btn-1" href="/">{{tokubetsu}}</a>
+    </div>
+    {% endfor %}
+<div style="text-align: center;color:white;">
+    <br>
+<p>ボタンをタッチしてください</p>            
+</div>
+</html>
